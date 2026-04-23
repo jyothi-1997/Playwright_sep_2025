@@ -35,6 +35,9 @@ How do we work with "Version Control Tool"?
             6. "git add ." - to stage all the modified files
             7. "git commit -m "Added the login page test cases"" - to commit the changes
             8. "git push origin TS01LoginPage" - to push the changes to the remote branch
+                    8.1 - Switch to the main branch and make pull - git checkout master - git pull
+                    8.2 - Switch back to your feature branch - "git checkout TS01LoginPage"
+                    8.3 - Merge the main branch changes to your feature branch - "git merge master"
             9. Go to the github/bitbucket/gitlab portal - you will see a pop up to create a pull request -> click on it
                 which says i have made the changes correctly so move to main branch which is master
             10. click on "Create pull request" for the changes - assign the reviewer(inside organization) and create the PR 
@@ -46,7 +49,7 @@ How do we work with "Version Control Tool"?
         //"git checkout master" - to move to the main branch
         //"git pull origin master" - to pull all the changes from the remote main branch to your local main branch
         // Repeat #3 to #12
-        //If u want work on same branch #5 to #12
+        //If u want work on same branchy #5 to #12
         //If u already on master page just say ---> 
         // 1. git pull origin master
         // 2.git push origin master 
