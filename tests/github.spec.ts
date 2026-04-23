@@ -25,6 +25,7 @@ How do we work with "Version Control Tool"?
                 repo_url -->click on code and copy https url
 
             2. Install all the dependencies - npm install - npm install playwright(Not mandatory but if the test fails then you can install)
+            
             3. create a new branch - If u r asked to work on any task or LoginPage then create a new branch and u have zira ticket number
                      so create as TS01LoginPage ---TS01(zira ticket number)Loginpage(Branchname) 
                 How to create a new branch --> enter in terminal "git checkout -b branchname" ---> -b means create new branch
@@ -33,8 +34,18 @@ How do we work with "Version Control Tool"?
             6. "git status" - to check the files which are modified
             6. "git add ." - to stage all the modified files
             7. "git commit -m "Added the login page test cases"" - to commit the changes
+            8. "git push origin TS01LoginPage" - to push the changes to the remote branch
+            9. Go to the github/bitbucket/gitlab portal - you will see a pop up to create a pull request -> click on it
+                which says i have made the changes correctly so move to main branch which is master
+            10. click on "Create pull request" for the changes - assign the reviewer(inside organization) and create the PR 
+            11. Once the reviewer approves the changes - click on "Merge pull request"->"confirm merge" so it will merge the changes to the main branch
+          
 
-
+        //3.0:  Pull all the changes inside you local system from the main/master branch by 
+                moving to the main branch inside your local system
+        //"git checkout master" - to move to the main branch
+        //"git pull" - to pull all the changes from the remote main branch to your local main branch
+        // Repeat #3 to #12
 
 Note:
 gitignore: whatever u mention in gitignore will not move to repository
