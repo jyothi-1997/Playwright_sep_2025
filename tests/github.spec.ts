@@ -46,6 +46,7 @@ How do we work with "Version Control Tool"?
         //"git checkout master" - to move to the main branch
         //"git pull" - to pull all the changes from the remote main branch to your local main branch
         // Repeat #3 to #12
+        //If u want work on same branch #5 to #12
 
 Note:
 gitignore: whatever u mention in gitignore will not move to repository
