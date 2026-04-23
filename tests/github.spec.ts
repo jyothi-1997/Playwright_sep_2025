@@ -10,17 +10,29 @@ How do we work with "Version Control Tool"?
             A. open gitbash -> press git(it will open all the things whichs are installed)
             B. git config --global user.name "jyothi-1997" -----> Sets your Git username globally for all repositories on your system.
             c. git config --global user.email "jyothikummitha1997@gmail.com" --------> Sets your Git email globally, which is used in commit records. 
+            d. git config --list
+            e. create repository on Github
+            f. cd your-project-folder
+            g. git init
+            h. git remote add origin "neewly created repository url"
+            i. git branch -M main
+            j. git push -u origin main -----if u follow these steps u will successfully add the folder to repository
 
 
     3. If the repository is already available
-            1. Clone the respository in your local system - git clone <repo_url> 
+            1. Clone the respository in your local system - "git clone repo_url"
                 cloneing means the replica or copy of repository that u see
                 repo_url -->click on code and copy https url
 
             2. Install all the dependencies - npm install - npm install playwright(Not mandatory but if the test fails then you can install)
-            3. create a new branch - If u r asked to work on LoginPage then create a new branch and u have zira ticket number
+            3. create a new branch - If u r asked to work on any task or LoginPage then create a new branch and u have zira ticket number
                      so create as TS01LoginPage ---TS01(zira ticket number)Loginpage(Branchname) 
-                How to create a new branch --> enter in terminal git checkout -b branchname ---> -b means create new branch
+                How to create a new branch --> enter in terminal "git checkout -b branchname" ---> -b means create new branch
+            4. validae if the branch has been created - "git branch"
+            5. Make the changes in the code and save the filename
+            6. "git status" - to check the files which are modified
+            6. "git add ." - to stage all the modified files
+            7. "git commit -m "Added the login page test cases"" - to commit the changes
 
 
 
