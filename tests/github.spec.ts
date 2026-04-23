@@ -8,13 +8,13 @@ How do we work with "Version Control Tool"?
     2. goto browser ->download git -> download from https://git-scm.com/downloads and install it in our system
         goto "https://github.com/" -->login -> To sync gitbash(present in local system) and github(cloud based platform) follow below steps
             A. open gitbash -> press git(it will open all the things whichs are installed)
-            B. git config --global user.name "jyothi-1997" -----> Sets your Git username globally for all repositories on your system.
-            c. git config --global user.email "jyothikummitha1997@gmail.com" --------> Sets your Git email globally, which is used in commit records. 
+            B. "git config --global user.name "jyothi-1997"" -----> Sets your Git username globally for all repositories on your system.
+            c. "git config --global user.email "jyothikummitha1997@gmail.com" --------> Sets your Git email globally, which is used in commit records. 
             d. git config --list
             e. create repository on Github
             f. cd your-project-folder
             g. git init
-            h. git remote add origin "neewly created repository url"
+            h. git remote add origin "nwly created repository url"
             i. git branch -M main
             j. git push -u origin main -----if u follow these steps u will successfully add the folder to repository
 
