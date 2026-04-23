@@ -44,9 +44,13 @@ How do we work with "Version Control Tool"?
         //3.0:  Pull all the changes inside you local system from the main/master branch by 
                 moving to the main branch inside your local system
         //"git checkout master" - to move to the main branch
-        //"git pull" - to pull all the changes from the remote main branch to your local main branch
+        //"git pull origin master" - to pull all the changes from the remote main branch to your local main branch
         // Repeat #3 to #12
         //If u want work on same branch #5 to #12
+        //If u already on master page just say ---> 
+        // 1. git pull origin master
+        // 2.git push origin master 
+        // 3. If any error comes and u r confident about to push just say "git push --force origin master"
 
 Note:
 gitignore: whatever u mention in gitignore will not move to repository
