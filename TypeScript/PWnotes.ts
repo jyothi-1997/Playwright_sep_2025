@@ -107,7 +107,6 @@ JavaScript comments:
 
 /*
 Playwright-JavaScript
-
 we require
 1. node js library - npm(node package management)
 2. vs code - Editor
@@ -128,6 +127,7 @@ Playwright- TypeScript
 
 
 /*Install in Playwright Terminal
+create a folder and do below steps:
 1. npm init playwright (or) npm install playwright(automatically it will download latest playwright) (or) npm install playwright@latest (or) npm install playwright@new version(new version mean 1.0.0 like that)->
 2. select typescript
 3. where to put your end to end tests -> tests
@@ -195,7 +195,7 @@ Retries - when u r test fails we will run one more time if it is coding issues o
 */
 
 
-/*reporter - generates reports in html or anyother elure reports but we should mention it using comma separated
+/*reporter - generates reports in html or anyother ellure reports but we should mention it using comma separated
 any type of report can be generated
 n number of reports can be generated at a time
 */
@@ -209,6 +209,13 @@ trace - a log file that it generates
 screenshot:'on' - means playwright autogenerates screenshots for each and every testcase
 video :'on' - means playwright generates videos for each and every testcase
 headless : false - means do not run testcase in headed mode as by default mode is headless mode
+Headed Mode:
+    Runs with a visible browser window
+    You can watch the test execution live
+Headless Mode (default):
+    Runs without opening a visible browser UI
+    Everything happens in the background
+    Faster and lightweight
 }
 */
 
@@ -245,7 +252,7 @@ terminal --> npx playwright test --reporter=list to generate o/p in report forma
 /*workers - how many testcases or executors u can run at the same time we can mention as 1(for CI):10(10 tcs will run), 1:15(15 tcs will run )
 
 1:10
-1 is for CI and 10 is not for for CI
+1 is for CI and 10 is not for CI
 
 it will take 50% of CPU cores to run the process
 - we can check cpu cores under system information->processor-> my system has 12 logical processors

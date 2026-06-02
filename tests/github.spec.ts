@@ -1,3 +1,53 @@
+/*Git and github are different
+Git is a version control system
+Repository or repo: Its just a project folder 
+Remote repository or repo: A repository that is stored on a remote server, such as GitHub, GitLab, or Bitbucket.
+Github: It is one example of remote repository hosting service -- hosting services ante vere vaalla projects ni oka dantlo store cheyadaniki use chesedhi github/gitlab etc..
+        Github is free of source so lot of them use it
+Local Repository: A repository that is stored on your local machine, where you can make changes and commit them before 
+                pushing to a remote repository.
+branch: A branch in Git is a separate line of development that allows you to work on different features or bug fixes without affecting the main codebase. It enables multiple developers to collaborate on the same project simultaneously.
+pull request: A pull request is a way to propose changes to a codebase in a Git repository. It allows developers to submit their changes for review and discussion before merging them into the main branch. Pull requests are commonly used in collaborative software development to facilitate code review and ensure that changes are thoroughly vetted before being integrated into the main codebase.
+merge: Merging in Git is the process of combining changes from one branch into another. It allows you to integrate the work done on a feature branch back into the main branch (often called "master" or "main"). When you merge, Git takes the changes from the source branch and applies them to the target branch, creating a new commit that represents the merged changes. Merging is a fundamental part of collaborative software development, enabling multiple developers to work on different features or bug fixes simultaneously and then bring their changes together into a cohesive codebase.
+
+/***************** 
+Appudaina manam git loki folder pampinchali ante first mana local machine lo vundali
+command prompt or vs code terminal lo cheyochu
+1.git init --> initialises the empty git repository
+2.git status --> to check the status of the repository
+3."git add filename" --> miku just one file maatrame add cheyali ante -- "git add filename"
+4.git commit -m "commitplaywrightmcpusingAI" --> to commit the changes with a message
+
+////goto github portal --> create a new repository or remote repository --> local filename and remote repository filename same vundali
+Readme file: check or uncheck cheyochu as It is a file which gives the information about the project, how to run the project, 
+            how to install the dependencies etc.. it is a documentation file which gives the information about the project
+.gitignore file: It is a file which is used to ignore the files which we dont want to push to the repository/////
+
+5.git remote add origin https://github.com/jyothi-1997/PlaywrightMCPusingAI.git --> to add the remote repository url to your local repository 
+niku remote repository means org anedhi telidhu so local machine lo cmd lo ee link paste cheyu so add aithadhi
+6. git branch
+7. git push -u origin master --> to push the changes to the remote repository
+eeeeeeeeee step aipoyanaka github ki velli newly created repository page ni refresh cheyandi appudu commit chesina single or multiple files kanipisthadhi
+
+main/master: Main branch is the default branch in Git repositories, often used as the primary branch for development. 
+            It is where the stable and production-ready code is typically maintained. Developers create feature branches off of the main branch 
+            to work on new features or bug fixes, and then merge those changes back into the main branch once they are complete and tested. 
+            The main branch serves as the central point of collaboration and integration for a project, ensuring that all changes are consolidated and ready for deployment.
+branch: A branch in Git is a separate line of development that allows you to work on different features or bug fixes without affecting the
+        main codebase. It enables multiple developers to collaborate on the same project simultaneously. Each branch can have its own 
+        commits and changes, and you can switch between branches to work on different aspects of the project. Once the work on a branch 
+        is complete, it can be merged back into the main branch to integrate the changes.
+pull request: A pull request is a way to propose changes to a codebase in a Git repository. It allows developers to submit their changes 
+              for review and discussion before merging them into the main branch. Pull requests are commonly used in collaborative 
+              software development to facilitate code review and ensure that changes are thoroughly vetted before being integrated 
+              into the main codebase. When a pull request is created, other team members can review the proposed changes, 
+              leave comments, and suggest modifications. Once the pull request is approved, it can be merged into the main branch, 
+              making the changes part of the official codebase.
+
+How to create branch:
+8. "git checkout -b branchname"
+checkout: "git checkout -b branchname" --> to create a new branch and switch or jump to it
+
 /*Github/Bitbucket/GitLab
         Github is known as "Version Control Tool" which stores code on different versions
         eg: 10 members are working inside a project, lets say one work on Login page, one on dashboard page etcc.. so 
@@ -13,7 +63,8 @@ How do we work with "Version Control Tool"?
             d. git config --list
             e. create repository on Github
             f. cd your-project-folder
-            g. git init
+            
+            g. git init --> initialises the empty git repository
             h. git remote add origin "newly created repository url"
             i. git branch -M main
             j. git push -u origin main -----if u follow these steps u will successfully add the folder to repository
@@ -48,11 +99,12 @@ How do we work with "Version Control Tool"?
                 moving to the main branch inside your local system
         //"git checkout master" - to move to the main branch
         //"git pull origin master" - to pull all the changes from the remote main branch to your local main branch
+        
         // Repeat #3 to #12
         //If u want work on same branchy #5 to #12
         //If u already on master page just say ---> 
         // 1. git pull origin master
-        // 2.git push origin master 
+        // 2. git push origin master 
         // 3. If any error comes and u r confident about to push just say "git push --force origin master"
 
 Note:
