@@ -45,8 +45,11 @@ pull request: A pull request is a way to propose changes to a codebase in a Git 
               making the changes part of the official codebase.
 
 How to create branch:
-8. "git checkout -b branchname"
+8. "git checkout -b branchname" --- from here refer below from 4th step onwards
 checkout: "git checkout -b branchname" --> to create a new branch and switch or jump to it
+
+
+
 
 /*Github/Bitbucket/GitLab
         Github is known as "Version Control Tool" which stores code on different versions
